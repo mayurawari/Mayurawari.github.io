@@ -1,0 +1,143 @@
+#projects>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.project-box{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.project-png{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.project-png>img{
+    width: 20%;
+}
+#proj-1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#proj-1>.proj-img>.img{
+    width: 100%;
+    height: 320px;
+    background-image: url("./images/ss/zenmart.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#proj-1>.proj-img>.img>.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    padding: 20px;
+}
+
+#proj-1>.proj-img:hover>.img>.text {
+    visibility: visible;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.632);
+    transition:background-color 0.3s ease-in-out ;
+    color: white;
+    border-radius: 10px;
+}
+
+#proj-1>.proj-img{
+    width:40%;
+}
+#proj-1>.proj-body{
+    width:40%;
+}
+
+/* styles for proj-2 */
+
+#proj-2{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#proj-2>.proj-img>.img{
+    width: 100%;
+    height: 320px;
+    background-image: url("./images/ss/zenmart.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#proj-2>.proj-img>.img>.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    padding: 20px;
+}
+
+#proj-2>.proj-img:hover>.img>.text {
+    visibility: visible;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.632);
+    transition:background-color 0.3s ease-in-out ;
+    color: white;
+    border-radius: 10px;
+}
+
+#proj-2>.proj-img{
+    width:40%;
+}
+#proj-2>.proj-body{
+    width:40%;
+}
+
+/* styles for proj-3 */
+
+#proj-3{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#proj-3>.proj-img>.img{
+    width: 100%;
+    height: 320px;
+    background-image: url("./images/ss/zenmart.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#proj-3>.proj-img>.img>.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    padding: 20px;
+}
+
+#proj-3>.proj-img:hover>.img>.text {
+    visibility: visible;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.632);
+    transition:background-color 0.3s ease-in-out ;
+    color: white;
+    border-radius: 10px;
+}
+
+#proj-3>.proj-img{
+    width:40%;
+}
+#proj-3>.proj-body{
+    width:40%;
+}

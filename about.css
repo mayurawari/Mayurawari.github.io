@@ -1,0 +1,63 @@
+#about {
+    height: 80vh;
+}
+
+#about > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.png {
+    width: 45%;
+    position: relative;
+    right: 250px;
+    animation: slideleft 1s ease-in-out forwards;
+}
+
+.png > img {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.bio {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 31%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 120px;
+    animation: slideright 1s ease-in-out forwards;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(40%);
+    }
+}
+
+@keyframes slideright {
+    0% {
+        transform: translateX(-1%);
+    }
+    100% {
+        transform: translateX(-30%);
+    }
+}
