@@ -9,10 +9,9 @@
 }
 
 .main {
-  border: 5px solid;
   width: 100%;
-  /* background: linear-gradient(to right, #2d2d2d, #1a1a1a, #000000); */
   background: linear-gradient(to right, #bfdbfe, #f3f4f6, #e5e7eb);
+
 
 }
 

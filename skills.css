@@ -26,10 +26,16 @@
     align-items: center;
 }
 .skill-logo>div>img{
-    width: 50px;
+    width: 50px; 
 }
+
 .skill-logo>div:hover{
-    animation: rotate1 1s ease-in-out infinite;
+    animation: rotate1 2s ease-in-out infinite;
+}
+
+#logo-redux>div>img{ 
+    transform-origin: center;
+    animation: rotate2 5s linear infinite;
 }
 
 @keyframes rotate1 {
@@ -38,5 +44,13 @@
   }
   to {
     transform: rotateY(360deg);
+  }
+}
+@keyframes rotate2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

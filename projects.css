@@ -1,3 +1,6 @@
+#projects{
+    margin-bottom: 50px;
+}
 #projects>h1{
     display: flex;
     justify-content: center;
@@ -8,7 +11,7 @@
 .project-box{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -48,7 +51,8 @@
     visibility: visible;
     height: 320px;
     background-color: rgba(0, 0, 0, 0.632);
-    transition:background-color 0.3s ease-in-out ;
+    backdrop-filter: blur(8px);
+    transition:background-color 0.3s ease-in-out,backdrop-filter 0.3s ease-in-out ;
     color: white;
     border-radius: 10px;
 }
@@ -72,7 +76,7 @@
 #proj-2>.proj-img>.img{
     width: 100%;
     height: 320px;
-    background-image: url("./images/ss/zenmart.png");
+    background-image: url("./images/ss/Recipe.png");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -89,7 +93,8 @@
     visibility: visible;
     height: 320px;
     background-color: rgba(0, 0, 0, 0.632);
-    transition:background-color 0.3s ease-in-out ;
+    backdrop-filter: blur(8px);
+    transition:background-color 0.3s ease-in-out,backdrop-filter 0.3s ease-in-out ;
     color: white;
     border-radius: 10px;
 }
@@ -113,7 +118,7 @@
 #proj-3>.proj-img>.img{
     width: 100%;
     height: 320px;
-    background-image: url("./images/ss/zenmart.png");
+    background-image: url("./images/ss/Sugar.png");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -130,7 +135,8 @@
     visibility: visible;
     height: 320px;
     background-color: rgba(0, 0, 0, 0.632);
-    transition:background-color 0.3s ease-in-out ;
+    backdrop-filter: blur(8px);
+    transition:background-color 0.3s ease-in-out,backdrop-filter 0.3s ease-in-out ;
     color: white;
     border-radius: 10px;
 }
@@ -140,4 +146,11 @@
 }
 #proj-3>.proj-body{
     width:40%;
+}
+.proj-body>ul>li{
+    padding: 10px;
+}
+.proj-body>h3{
+    text-align: center;
+    text-decoration:underline;
 }
