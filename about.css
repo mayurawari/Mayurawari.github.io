@@ -63,3 +63,48 @@
 }
 
 
+@media screen and (max-width: 700px) {
+    #about {
+        height: 100vh;
+    }
+    .about-section {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    #about > h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bio {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        width: 90%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 200px;
+        left: 110px;
+        text-align: center;
+        animation: slideright 1s ease-in-out forwards;
+    }
+    .png {
+        width: 80%;
+        position: relative;
+        right: 140px;
+        top: -300px;
+        animation: slideleft 1s ease-in-out forwards;
+    }
+    
+    .png > img {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+    }
+  }

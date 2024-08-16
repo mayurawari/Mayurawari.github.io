@@ -62,3 +62,41 @@
   border: none;
   border-radius: 20px;
 }
+@media screen and (max-width: 700px) {
+  #contact {
+    display: flex;
+    height: 180vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact > h1 {
+    margin-bottom: 30px;
+  }
+  .contact-Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+  }
+  .contact-info > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .contact-reachout {
+    width: 95%;
+  }
+}

@@ -154,3 +154,69 @@
     text-align: center;
     text-decoration:underline;
 }
+
+@media screen and (max-width: 700px) {
+    #proj-1{
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #proj-1>.proj-img>.img{
+        width: 100%;
+        height: 220px;
+        background-image: url("./images/ss/zenmart.png");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    #proj-1>.proj-img{
+        width:95%;
+    }
+    #proj-1>.proj-body{
+        width:80%;
+    }
+    #proj-2{
+        display: flex;
+        gap: 50px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #proj-2>.proj-img{
+        width:95%;
+    }
+    #proj-2>.proj-body{
+        width:80%;
+    }
+    #proj-2>.proj-img>.img{
+        width: 100%;
+        height: 220px;
+        background-image: url("./images/ss/Recipe.png");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    #proj-3{
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #proj-3>.proj-img{
+        width:95%;
+    }
+    #proj-3>.proj-body{
+        width:80%;
+    }
+    #proj-3>.proj-img>.img{
+        width: 100%;
+        height: 220px;
+        background-image: url("./images/ss/Sugar.png");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+}
