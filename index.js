@@ -10,13 +10,15 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 let hambtn = document.getElementById("menu-toggle");
 let menuBox = document.getElementById("nav-list-items");
 let hamele = document.getElementById("ham-list-items");
+
 window.addEventListener("resize", () => {
   let width = window.outerWidth;
   if (width < 700) {
     hambtn.style.display = "flex";
     document.getElementById("hire-btn").style.display = "none";
     menuBox.style.display = "none";
-} else {
+}
+ else {
     hambtn.style.display = "none";
     document.getElementById("ham-box").style.display = "none"
     document.getElementById("hire-btn").style.display = "flex";
@@ -40,11 +42,27 @@ if(document.getElementById("ham-box").style.display == "none" && window.outerWid
     hamele.style.justifyContent = "center";
     hamele.style.alignItems = "center";
     hamele.style.display = "none";
-    let items=hamele.innerHTML;
-    items.style.color = "white";
-    console.log("happening");
+    // let items=document.getElementById("ham-list-items");
+    // items.style.color='white';
 }
 else{
     document.getElementById("ham-box").style.display = "none"
 }
 });
+
+
+
+let ele1=document.getElementById("about-png");
+let ele2=document.getElementById("about-text");
+
+
+window.addEventListener("scroll",()=>{
+  let height=document.documentElement.scrollTop;
+  if(height>400){
+    ele1.style.animation="slideleft 1s ease-in-out forwards";
+    ele2.style.animation="slideright 1s ease-in-out forwards";
+  }
+})
+
+
+

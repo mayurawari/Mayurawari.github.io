@@ -56,11 +56,11 @@
 }
 @media screen and (max-width: 700px) {
   #skills{
-    height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
   .skill-list{
     display: grid;

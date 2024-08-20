@@ -1,13 +1,13 @@
 #contact {
   display: flex;
-  height: 100vh;
+  height: 700px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 #contact > h1 {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .contact-Box {
   width: 100%;
@@ -40,6 +40,7 @@
   gap: 50px;
   justify-content: flex-start;
   align-items: center;
+  text-wrap: wrap;
 }
 .contact-reachout {
   width: 30%;
@@ -52,8 +53,11 @@
   align-items: flex-start;
 }
 .contact-reachout > form > input {
-  font-size: 20px;
   width: 100%;
+}
+.contact-reachout > form > label {
+  font-weight: 500;
+  font-size: 20px;
 }
 #message-btn {
   background-color: black;
@@ -65,13 +69,14 @@
 @media screen and (max-width: 700px) {
   #contact {
     display: flex;
-    height: 180vh;
+    height: 1150px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   #contact > h1 {
-    margin-bottom: 30px;
+    margin-top: -150px;
+    margin-bottom: 20px;
   }
   .contact-Box{
     display: flex;
@@ -85,6 +90,7 @@
     justify-content: center;
     align-items: flex-start;
     width: 90%;
+    
   }
   .contact-info > h1 {
     display: flex;
@@ -93,7 +99,7 @@
     font-size: 20px;
     text-align: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top:  10px;
     margin-bottom: 50px;
   }
   .contact-reachout {

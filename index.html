@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="skills.css" />
     <link rel="stylesheet" href="projects.css" />
     <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css" />
     <link
       rel="shortcut icon"
       href="./images/portfolio (1).png"
@@ -24,29 +25,49 @@
       <div class="box">
         <nav id="nav-menu">
           <h1>Portfolio</h1>
-          <div >
+          <div>
             <ul id="nav-list-items">
               <li class="nav-link"><a href="#home">Home</a></li>
-              <li class="nav-link"><a href="#about">About</a></li>
+              <li class="nav-link">
+                <a href="#about" id="about-link">About</a>
+              </li>
               <li class="nav-link"><a href="#skills">Skills</a></li>
               <li class="nav-link"><a href="#projects">Projects</a></li>
               <li class="nav-link"><a href="#contact">Contact</a></li>
-              <li class="nav-link"><a href="https://drive.google.com/uc?export=download&id=1as2SCjjSh8lZDckK2o8MWuJX2N3UBVqc" >Resume</a></li>
+              <li class="nav-link">
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1as2SCjjSh8lZDckK2o8MWuJX2N3UBVqc"
+                  >Resume</a
+                >
+              </li>
             </ul>
           </div>
-          
+
           <div id="ham-box">
             <ul id="ham-list-items">
-              <li class="nav-link"><a href="#home">Home</a></li>
-              <li class="nav-link"><a href="#about">About</a></li>
-              <li class="nav-link"><a href="#skills">Skills</a></li>
-              <li class="nav-link"><a href="#projects">Projects</a></li>
-              <li class="nav-link"><a href="#contact">Contact</a></li>
-              <li class="nav-link"><a href="https://drive.google.com/uc?export=download&id=1as2SCjjSh8lZDckK2o8MWuJX2N3UBVqc" >Resume</a></li>
+              <li><a class="nav-link" href="#home">Home</a></li>
+              <li>
+                <a
+                  class="nav-link"
+                  href="https://drive.google.com/uc?export=download&id=1as2SCjjSh8lZDckK2o8MWuJX2N3UBVqc"
+                  >Resume</a
+                >
+              </li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#skills">Skills</a></li>
+              <li><a class="nav-link" href="#projects">Projects</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
           </div>
           <button id="menu-toggle">☰</button>
-          <button id="hire-btn">Hire Me 💼</button>
+          <button id="hire-btn">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=mayurawari50@gmail.com&su=Hiring Inquiry"
+              target="_blank"
+              style="text-decoration: none"
+              >Hire Me 💼</a
+            >
+          </button>
         </nav>
 
         <div class="" id="home">
@@ -96,14 +117,14 @@
         <div id="about">
           <h1>About Me</h1>
           <div class="about-section">
-            <div class="png">
+            <div class="png" id="about-png">
               <img
                 src="./images/bg-rm/undraw_code_thinking_re_gka2__1_-removebg-preview.png"
                 alt="thinking"
               />
             </div>
 
-            <div class="bio">
+            <div class="bio" id="about-text">
               <p>
                 I&apos;m <span style="font-weight: 650">Mayur Awari</span>, a
                 Full-Stack Developer with expertise in the MERN stack (MongoDB,
@@ -531,30 +552,23 @@
             <div class="contact-reachout">
               <form action="https://api.web3forms.com/submit" method="POST">
                 <h2>Reach out</h2>
-                <!-- Replace with your Access Key -->
                 <input
                   type="hidden"
                   name="access_key"
                   value="9e618bfc-348e-4972-9409-0884051807bc"
                 />
-
-                <!-- Form Inputs. Each input must have a name="" attribute -->
                 <label for="getname">Name</label>
                 <input type="text" id="getname" name="name" required />
                 <label for="getemail">Email</label>
                 <input type="email" id="getemail" name="email" required />
                 <label for="getmessage">Type your message</label>
                 <textarea name="message" id="getmessage" required></textarea>
-
-                <!-- Honeypot Spam Protection -->
                 <input
                   type="checkbox"
                   name="botcheck"
                   class="hidden"
                   style="display: none"
                 />
-
-                <!-- Custom Confirmation / Success Page -->
                 <input
                   type="hidden"
                   name="redirect"
@@ -565,6 +579,13 @@
               </form>
             </div>
           </div>
+        </div>
+
+        <div class="footer">
+          <h4>
+            <i class="fa-regular fa-copyright" style="color: #ffffff"></i> Mayur
+            Awari. All Rights Reserved.
+          </h4>
         </div>
       </div>
     </div>
