@@ -42,23 +42,3 @@
   width: 30%;
   border-radius: 10px;
 }
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-.btn > button {
-    width: 100px;
-  padding: 10px;
-  background-color: black;
-  border: none;
-  border-radius: 10px;
-}
-.btn > button:hover{
-  background-color: rgba(0, 0, 0, 0.288);
-  transition: background-color 0.3s ease-in-out;
-}
-.btn > button>a{
-    text-decoration: none;
-}
