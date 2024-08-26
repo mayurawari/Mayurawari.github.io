@@ -1,12 +1,13 @@
 #about {
-    height: 500px;
+    height: 800px;
+    padding-top: 120px;
 }
 
 #about > h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 100px;
 }
 

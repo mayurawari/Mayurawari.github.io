@@ -21,6 +21,6 @@ window.addEventListener("scroll", () => {
 document.getElementById("resume-link").addEventListener("click", function () {
   setTimeout(function () {
     window.location.href =
-      "https://drive.google.com/uc?export=download&id=1as2SCjjSh8lZDckK2o8MWuJX2N3UBVqc";
+      "https://drive.google.com/uc?export=download&id=1cHyF0x5wJDb-4xfK2Vcj7eV4SCH0OL6a";
   }, 2000);
 });

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 800px;
 }
 #skills>h1{
     margin-top: 50px;
@@ -65,6 +66,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    height: 1200px;
 }
   .skill-list{
     display: grid;
